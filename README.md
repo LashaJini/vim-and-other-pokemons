@@ -14,6 +14,8 @@
 
 _Workflow on Linux and my recommendations._
 
+**Open to suggestions.**
+
 ## Pokemons
 
 - [i3wm](#i3wm)
@@ -58,8 +60,8 @@ combination of GNOME and i32m and is really cool but for me it's an overkill.
 
 **Why?**
 
-- because autocomplete is amazing
-- let's you use vi keybindings
+- Because autocomplete is amazing
+- Let's you use vi keybindings
 
 **cons:**
 
@@ -90,6 +92,11 @@ Definitely should configure for git.
 ---
 
 - [github](https://github.com/tmux/tmux)
+
+**Why?**
+
+- One terminal was not enough
+- Having multiple opened terminals takes too much space
 
 ## Vim
 
