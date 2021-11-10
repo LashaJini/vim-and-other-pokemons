@@ -1,27 +1,27 @@
 # Table of Contents
 
 - [Table of Contents](#table-of-contents)
-  - [Vim and Other Pokemons](#vim-and-other-pokemons)
-    - [Pokemons](#pokemons)
-      - [i3wm](#i3wm)
-      - [fish](#fish)
-      - [starship](#starship)
-      - [tmux](#tmux)
-    - [Vim](#vim)
-    - [TODO](#todo)
+- [Vim and Other Pokemons](#vim-and-other-pokemons)
+  - [Pokemons](#pokemons)
+    - [Pokemon: *i3wm*](#pokemon-i3wm)
+    - [Pokemon: *fish*](#pokemon-fish)
+    - [Pokemon: *starship*](#pokemon-starship)
+    - [Pokemon: *tmux*](#pokemon-tmux)
+  - [Vim](#vim)
+  - [TODO](#todo)
 
-## Vim and Other Pokemons
+# Vim and Other Pokemons
 
 _Workflow on Linux and my recommendations._
 
-### Pokemons
+## Pokemons
 
 - [i3wm](#i3wm)
 - [fish](#fish)
 - [starship](#fish)
 - [tmux](#tmux)
 
-#### i3wm
+### Pokemon: *i3wm*
 
 ---
 
@@ -49,7 +49,7 @@ Replaced GNOME with i3wm.
 There is alternative - [regolith](https://regolith-linux.org/) which is
 combination of GNOME and i32m and is really cool but for me it's an overkill.
 
-#### fish
+### Pokemon: *fish*
 
 ---
 
@@ -69,7 +69,7 @@ combination of GNOME and i32m and is really cool but for me it's an overkill.
   bash or sh
   - possible solution: [bass](https://github.com/edc/bass)
 
-#### starship
+### Pokemon: *starship*
 
 ---
 
@@ -85,15 +85,15 @@ combination of GNOME and i32m and is really cool but for me it's an overkill.
 
 Definitely should configure for git.
 
-#### tmux
+### Pokemon: *tmux*
 
 ---
 
 - [github](https://github.com/tmux/tmux)
 
-### Vim
+## Vim
 
-### TODO
+## TODO
 
 - [ ] clean vim
 - [ ] default vimrc
