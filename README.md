@@ -3,18 +3,20 @@
 - [Table of Contents](#table-of-contents)
 - [Vim and Other Pokemons](#vim-and-other-pokemons)
   - [Pokemons](#pokemons)
-    - [Pokemon: *i3wm*](#pokemon-i3wm)
-    - [Pokemon: *fish*](#pokemon-fish)
-    - [Pokemon: *starship*](#pokemon-starship)
+    - [Pokemon: _i3wm_](#pokemon-_i3wm_)
+    - [Pokemon: _fish_](#pokemon-_fish_)
+    - [Pokemon: _starship_](#pokemon-_starship_)
+    - [Pokemon: _tmux_](#pokemon-_tmux_)
     - [Pokemon: *tmux*](#pokemon-tmux)
-  - [Vim](#vim)
+  - [(Neo)Vim](#neovim)
   - [TODO](#todo)
 
 # Vim and Other Pokemons
 
 _Workflow on Linux and my recommendations._
 
-**Open to suggestions.**
+**_The goal is to try and make teammates more productive (even a lil bit).
+Please, don't hesitate to correct me and to ask questions._**
 
 ## Pokemons
 
@@ -23,7 +25,7 @@ _Workflow on Linux and my recommendations._
 - [starship](#fish)
 - [tmux](#tmux)
 
-### Pokemon: *i3wm*
+### Pokemon: _i3wm_
 
 ---
 
@@ -51,7 +53,7 @@ Replaced GNOME with i3wm.
 There is alternative - [regolith](https://regolith-linux.org/) which is
 combination of GNOME and i32m and is really cool but for me it's an overkill.
 
-### Pokemon: *fish*
+### Pokemon: _fish_
 
 ---
 
@@ -71,11 +73,23 @@ combination of GNOME and i32m and is really cool but for me it's an overkill.
   bash or sh
   - possible solution: [bass](https://github.com/edc/bass)
 
-### Pokemon: *starship*
+### Pokemon: _starship_
 
----
+
 
 - [website](https://starship.rs/)
+- [github](https://github.com/starship/starship)
+
+**Why?**
+
+- It is written in Rust
+- Utility styling
+- Great documentation
+- Fish + Starship + Vi(keybindings) combo
+
+Definitely should configure for git.
+
+### Pokemon: _tmux_
 - [github](https://github.com/starship/starship)
 
 **Why?**
@@ -98,12 +112,29 @@ Definitely should configure for git.
 - One terminal was not enough
 - Having multiple opened terminals takes too much space
 
-## Vim
+## (Neo)Vim
+
+**Why?**
+
+- Basically you can have your custom IDE
+- But that's not the case: it's actually keybindings and vim modes that matter
+  (and many other things)
+
+Vim also has GUI, but I never use it.
+
+**Why (Neovim)?**
+
+- Because NeoVim is community based, which makes it less opinion dependent
+
+---
+
+```bash
+vim --clean
+nvim --clean
+```
 
 ## TODO
 
-- [ ] clean vim
-- [ ] default vimrc
 - [ ] vi, vim, neovim
 - [ ] vim vs emacs vs vscode
 - [ ] learning curve
@@ -132,3 +163,5 @@ Definitely should configure for git.
 - [ ] vimium
 - [ ] cons of using neovim
 - [ ] u can also have mouse feature
+- [ ] keyboard placement
+- [ ] vim book
