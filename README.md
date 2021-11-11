@@ -103,8 +103,6 @@ Definitely should configure for git.
 
 ## (Neo)Vim
 
----
-
 **Why?**
 
 - Basically you can have your custom IDE/editor
@@ -147,14 +145,14 @@ Vim also has GUI, but I never use it.
 - [lightline](https://github.com/itchyny/lightline.vim)
   - Ricing vim
 - [markdown preview](https://github.com/iamcco/markdown-preview.nvim)
-  - opens markdown in browser for preview
+  - Opens markdown in browser for preview
 
 ##### Will try:
 
 - [telescope](https://github.com/nvim-telescope/telescope.nvim)
-  - Fuzzy finder (probably will try this one, and not the other one)
-- [fzf](https://github.com/junegunn/fzf.vim)
   - Fuzzy finder
+- [vim visual multi](https://github.com/mg979/vim-visual-multi)
+  - Multiple cursors
 
 ##### Might be interesting:
 
