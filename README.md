@@ -7,9 +7,10 @@
     - [Pokemon: _fish_](#pokemon-_fish_)
     - [Pokemon: _starship_](#pokemon-_starship_)
     - [Pokemon: _tmux_](#pokemon-_tmux_)
-    - [Pokemon: *tmux*](#pokemon-tmux)
   - [(Neo)Vim](#neovim)
-  - [TODO](#todo)
+        - [Tried:](#tried)
+        - [Will try:](#will-try)
+        - [Might be interesting:](#might-be-interesting)
 
 # Vim and Other Pokemons
 
@@ -75,7 +76,7 @@ combination of GNOME and i32m and is really cool but for me it's an overkill.
 
 ### Pokemon: _starship_
 
-
+---
 
 - [website](https://starship.rs/)
 - [github](https://github.com/starship/starship)
@@ -90,18 +91,6 @@ combination of GNOME and i32m and is really cool but for me it's an overkill.
 Definitely should configure for git.
 
 ### Pokemon: _tmux_
-- [github](https://github.com/starship/starship)
-
-**Why?**
-
-- It is written in Rust
-- Utility styling
-- Great documentation
-- Fish + Starship + Vi(keybindings) combo
-
-Definitely should configure for git.
-
-### Pokemon: *tmux*
 
 ---
 
@@ -114,9 +103,11 @@ Definitely should configure for git.
 
 ## (Neo)Vim
 
+---
+
 **Why?**
 
-- Basically you can have your custom IDE
+- Basically you can have your custom IDE/editor
 - But that's not the case: it's actually keybindings and vim modes that matter
   (and many other things)
 
@@ -124,44 +115,57 @@ Vim also has GUI, but I never use it.
 
 **Why (Neovim)?**
 
-- Because NeoVim is community based, which makes it less opinion dependent
+- Because NeoVim is community based, which makes it less opinion dependant
 
----
+**Cons:**
 
-```bash
-vim --clean
-nvim --clean
-```
+- Sometimes GUI is needed
+  - viewing images, for example
 
-## TODO
+**Github copilot is already in vim thanks to tpope - [copilot.vim](https://github.com/github/copilot.vim)**
 
-- [ ] vi, vim, neovim
-- [ ] vim vs emacs vs vscode
-- [ ] learning curve
-- [ ] splitting & moving panes
-- [ ] there will be issues
-- [ ] disabling cache or something
-- [ ] recommendations
-  - caps swap
-  - primegean
-- [ ] plugins
-  - blamer
-  - vim-maximizer
-  - vim-commentary
-  - ctrlp
-  - markdown-preview
-  - ultisnips
-  - nerdtree
-  - emmet-vim
-  - lightline
-  - simpylfold
-  - coc
-  - ale?
-- [ ] my init.vim
-- [ ] github copilot and tpope
-- [ ] vim-fugitive
-- [ ] vimium
-- [ ] cons of using neovim
-- [ ] u can also have mouse feature
-- [ ] keyboard placement
-- [ ] vim book
+**Recommended plugins:**
+
+##### Tried:
+
+- [coc](https://github.com/neoclide/coc.nvim)
+  - LSP
+- [nerdtree](https://github.com/preservim/nerdtree)
+  - File architecture
+- [ultisnips](https://github.com/SirVer/ultisnips)
+  - Code snippets
+- [ctrlp](https://github.com/ctrlpvim/ctrlp.vim)
+  - Fuzzy finder
+- [vim commentary](https://github.com/tpope/vim-commentary)
+  - Commenting and commenting out
+- [emmet vim](https://github.com/mattn/emmet-vim)
+  - Well, emmet...
+- [vim maximizer](https://github.com/szw/vim-maximizer)
+  - Maximizes 1 pane
+- [blamer](https://github.com/APZelos/blamer.nvim)
+  - Kinda like git lens
+- [lightline](https://github.com/itchyny/lightline.vim)
+  - Ricing vim
+- [markdown preview](https://github.com/iamcco/markdown-preview.nvim)
+  - opens markdown in browser for preview
+
+##### Will try:
+
+- [telescope](https://github.com/nvim-telescope/telescope.nvim)
+  - Fuzzy finder (probably will try this one, and not the other one)
+- [fzf](https://github.com/junegunn/fzf.vim)
+  - Fuzzy finder
+
+##### Might be interesting:
+
+- [vim fugitive](https://github.com/tpope/vim-fugitive)
+  - Git wrapper
+
+**If you ever consider to try out vim, you won't regret it. And you will also
+have a lot of issues, so don't hesitate to reach out to me.**
+
+**Books (both have same author):**
+
+- [Practical Vim: Edit Text at the Speed of Thought](https://b-ok.asia/book/5103162/425395)
+- [Modern Vim: Craft Your Development Environment with Vim 8 and Neovim](https://b-ok.asia/book/3515981/579b1b) (new version of previous book + neovim)
+- [Youtuber: Primeagen](https://www.youtube.com/channel/UC8ENHE5xdFSwx71u3fDH5Xw)
